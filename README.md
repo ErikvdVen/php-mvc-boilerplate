@@ -12,7 +12,7 @@ bower install
 ```
 
 ## Setup Database
-First create a database and update the database credentials in `app/bootstrap.php`
+First create a database and update the database credentials in `app/service.php`
 
 ## Create Schema
 Execute below command inside the `dev-test` folder
