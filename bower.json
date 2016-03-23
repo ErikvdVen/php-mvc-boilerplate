@@ -1,0 +1,21 @@
+{
+  "name": "magneds",
+  "homepage": "https://github.com/ErikvdVen/dev-test",
+  "authors": [
+    "Erik van de Ven <erikvandeven100@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
