@@ -3,24 +3,35 @@
 {% block content %}
 <h1>Import an Excel Sheet</h1>
 <form enctype="multipart/form-data" method="post" action="/">
-	<div class="col-12">
-        <div class="input-group">
-            <span class="input-group-btn">
-                <span class="btn btn-primary btn-file">
-                    Browse&hellip; <input type="file" name="csv">
+    <div class="row">
+        <div class="col-xs-9 col-md-9 col-lg-9">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <span class="btn btn-primary btn-file">
+                        Browse&hellip; <input type="file" name="csv">
+                    </span>
                 </span>
-            </span>
-            <input type="text" class="form-control" readonly>
+                <input type="text" class="form-control" readonly>
+            </div>
         </div>
-        <div class="input-group">
-        	<input type="submit" value="Upload" />
-        </div>
-        <div class="input-group">
-            Gem. leeftijd vrouwen: {{avgWomen}}
-        </div>
-        <div class="input-group">
-            Gem. leeftijd mannen: {{avgMen}}
+        <div class="col-xs-3 col-md-3 col-lg-3">
+        	<input type="submit" class="btn btn-primary btn-file" value="Upload" />
         </div>
     </div>
+    <table class="table table-striped col-md-12">
+        <thead>
+            <th colspan="2">Results database</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Average age women:</td>
+                <td>{{avgWomen}}</td>
+            </tr>
+            <tr>
+                <td>Average age men:</td>
+                <td>{{avgMen}}</td>
+            </tr>
+        </tbody>
+    </table>    
 </form>
 {% endblock %}
