@@ -1,4 +1,4 @@
-# dev-test
+# PHP MVC Boilerplate
 
 ## Installation
 
