@@ -2,7 +2,7 @@
 
 use \Klein\Klein;
 
-use \Erik\Magneds\Controllers\UserController;
+use \ErikvdVen\PHP_MVC\Controllers\UserController;
 
 $router = new Klein();
 $userCtrl = new UserController();

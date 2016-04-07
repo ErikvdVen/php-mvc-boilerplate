@@ -1,6 +1,6 @@
 <?php
 
-namespace Erik\Magneds;
+namespace ErikvdVen\PHP_MVC;
 
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
@@ -22,7 +22,7 @@ final class Service
             'driver'   => 'pdo_mysql',
             'user'     => 'root',
             'password' => 'root',
-            'dbname'   => 'magneds',
+            'dbname'   => 'phpmvc',
             'host'     => 'localhost',
             'port'     => '8889',
         );

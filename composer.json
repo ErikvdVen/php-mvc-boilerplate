@@ -1,6 +1,6 @@
 {
-    "name": "erik/magneds",
-    "description": "Excel Importer to prove my PHP skills",
+    "name": "erikvdven/php-mvc",
+    "description": "PHP MVC Boilerplate for does who don't want to use a standard framework",
     "require": {
         "league/csv": "^8.0",
         "doctrine/orm": "^2.5",
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Erik\\Magneds\\":"app/"
+            "ErikvdVen\\PHP_MVC\\":"app/"
         }
     },
     "authors": [

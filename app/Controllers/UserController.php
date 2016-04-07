@@ -1,11 +1,11 @@
 <?php
 
-namespace Erik\Magneds\Controllers;
+namespace ErikvdVen\PHP_MVC\Controllers;
 
 use League\Csv\Reader;
 use Doctrine\ORM\EntityManager;
-use Erik\Magneds\Service;
-use Erik\Magneds\Models\User;
+use ErikvdVen\PHP_MVC\Service;
+use ErikvdVen\PHP_MVC\Models\User;
 
 class UserController
 {
@@ -63,7 +63,7 @@ class UserController
 
         }
 
-        if($users = $this->em->getRepository('Erik\Magneds\Models\User')->findAll())
+        if($users = $this->em->getRepository('ErikvdVen\PHP_MVC\Models\User')->findAll())
         {
             $men = [];
             $women = [];

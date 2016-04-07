@@ -1,6 +1,6 @@
 <?php
 
-namespace Erik\Magneds\Models;
+namespace ErikvdVen\PHP_MVC\Models;
 
 /**
  * @Entity
