@@ -15,7 +15,7 @@ bower install
 First create a database and update the database credentials in `app/service.php`
 
 ## Create Schema
-Execute below command inside the `php-mvc-boilerplate` folder
+Execute below command inside the project folder
 
 ```
 php vendor/bin/doctrine orm:schema-tool:create
