@@ -22,4 +22,5 @@ php vendor/bin/doctrine orm:schema-tool:create
 ```
 
 ###That's all folks
+
 Important: Make sure the Document Root is set to the `public` folder before you navigate to your Mamp/Wamp server, e.g. `http://php-mvc.local:8888`
