@@ -24,7 +24,7 @@ final class Service
             'password' => 'root',
             'dbname'   => 'phpmvc',
             'host'     => 'localhost',
-            'port'     => '8889',
+            'port'     => '3306',
         );
 
         $this->config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode);
